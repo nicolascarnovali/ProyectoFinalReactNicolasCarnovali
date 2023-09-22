@@ -1,0 +1,24 @@
+.img-hover:hover {
+    transform: scale(1.15);
+}
+
+.img-hover{
+    transition: 0.5s;
+}
+
+.card-body {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 35px) 1fr;
+    grid-row-gap: 5px;
+}
+
+.btn {
+    align-self: flex-end;
+}
+
+.precio{
+    color: green;
+    font-size: 20px;
+}

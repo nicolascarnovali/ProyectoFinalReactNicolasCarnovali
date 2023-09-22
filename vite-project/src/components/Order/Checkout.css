@@ -1,0 +1,15 @@
+label {
+    font-weight: bold;
+}
+
+.order {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 2em;
+}
+
+.error {
+    color: rgb(255, 103, 103);
+    font-weight: 600;
+}
