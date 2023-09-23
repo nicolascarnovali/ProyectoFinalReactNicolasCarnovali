@@ -19,7 +19,7 @@ const Checkout = () => {
 
     const { email, name, phone } = input
 
-    const { cart, cleanCart } = useContext(CartContext)
+    const { cart, successCart } = useContext(CartContext)
 
     const total = calculateTotal(cart)
 
@@ -38,7 +38,7 @@ const Checkout = () => {
         createOrders(order).then((docRef) => {
             setOrderId(docRef.id)
             setIsLoading(false)
-            cleanCart()
+            successCart()
         })
     }
 

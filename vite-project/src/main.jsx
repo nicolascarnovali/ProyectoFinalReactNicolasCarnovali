@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
 import { BrowserRouter } from "react-router-dom"
 import { initializeApp } from "firebase/app";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import App from './App.jsx'
 import './index.css'
 
@@ -21,6 +23,7 @@ initializeApp(firebaseConfig);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
+      <ToastContainer/>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

@@ -12,6 +12,7 @@ const ItemDetailContainer = () => {
 
     const { addItem } = useContext(CartContext)
 
+
     useEffect(() => {
         getProduct(id)
             .then((response) => {

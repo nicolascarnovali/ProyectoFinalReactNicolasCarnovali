@@ -2,3 +2,8 @@
     color: green;
     font-size: 20px;
 }
+
+.Toastify__progress-bar--default{
+    background-color: red !important;
+    color: red !important;
+}

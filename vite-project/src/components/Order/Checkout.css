@@ -13,3 +13,8 @@ label {
     color: rgb(255, 103, 103);
     font-weight: 600;
 }
+
+.Toastify__progress-bar--dark{
+    background-color: red !important;
+    color: red !important;
+}
